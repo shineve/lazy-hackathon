@@ -8,8 +8,8 @@
 /* icon */
 /* ------- extends ------- */
 .team__item .team__btn, .judge__card .btn, .subscribe__input button, .nav .navbar, .team__item, .team__pic::after, .judge__item, .judge__item .pic img, .judge__item .pic::before {
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 html,
@@ -33,7 +33,7 @@ body, ul {
   display: inline-block;
   font-size: 14px;
   padding: 5px 30px;
-  background: #FAD312;
+  background: #fad312;
   color: #000;
   border-radius: 0;
   text-decoration: none;
@@ -43,7 +43,7 @@ body, ul {
 .section .section__title {
   display: inline-block;
   margin: 0 auto 60px auto;
-  border-bottom: 4px solid #FAD312;
+  border-bottom: 4px solid #fad312;
   padding-bottom: 5px;
 }
 
@@ -74,46 +74,46 @@ body, ul {
 }
 
 .section .dark-mode.section__title span {
-  color: #FAD312;
+  color: #fad312;
 }
 
 /* title - 各區塊標題 */
 .description .section__title span::before {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_description.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_description.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_description.png?tr=w-20,h-20");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_description.png?tr=w-20,h-20");
 }
 
 .team .section__title span::before {
   width: 22px;
   height: 22px;
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_team.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_team.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_team.png?tr=w-22,h-22");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_team.png?tr=w-22,h-22");
 }
 
 .schedule .section__title span::before {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_schedule.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_schedule.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_schedule.png?tr=w-20,h-20");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_schedule.png?tr=w-20,h-20");
 }
 
 .history .section__title span::before {
   width: 25px;
   height: 25px;
   top: 5px;
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_history.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_history.png");
-  background-color: #FAD312;
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_history.png?tr=w-25,h-25");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_history.png?tr=w-25,h-25");
+  background-color: #fad312;
 }
 
 .judge .section__title span::before {
   color: #fff;
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_judge.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_judge.png");
-  background-color: #FAD312;
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_judge.png?tr=w-20,h-20");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_judge.png?tr=w-20,h-20");
+  background-color: #fad312;
 }
 
 .subscribe .section__title span::before {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_subscribe.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_subscribe.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_subscribe.png?tr=w-20,h-20");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/title_subscribe.png?tr=w-20,h-20");
 }
 
 /* ------- layout ------- */
@@ -190,7 +190,7 @@ ul {
 .nav .nav__logo {
   width: 160px;
   height: 45px;
-  background: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/logo_nav.png") no-repeat center center;
+  background: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/logo_nav.png?tr=w-160,h-45") no-repeat center center;
   background-size: 100% auto;
 }
 
@@ -239,7 +239,7 @@ ul {
   transition: transform 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   -webkit-transform: scaleX(0.5);
           transform: scaleX(0.5);
-  background: #FAD312;
+  background: #fad312;
   opacity: 0;
 }
 
@@ -260,8 +260,8 @@ ul {
 /* ------- header ------- */
 .header {
   height: calc(100vh - 100px);
-  background: -webkit-gradient(linear, right top, left top, color-stop(30%, transparent), color-stop(0, #FAD312)), #fff;
-  background: linear-gradient(-90deg, transparent 30%, #FAD312 0), #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(30%, transparent), color-stop(0, #fad312)), #fff;
+  background: linear-gradient(-90deg, transparent 30%, #fad312 0), #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -326,7 +326,7 @@ ul {
 }
 
 .description .description__summary span {
-  color: #FAD312;
+  color: #fad312;
 }
 
 /* 比賽簡介 - 標題 ------- */
@@ -343,11 +343,11 @@ ul {
 }
 
 .description__title h4 span {
-  color: #FAD312;
+  color: #fad312;
 }
 
 .description__title .typed-cursor {
-  color: #FAD312;
+  color: #fad312;
 }
 
 .description__title::after {
@@ -440,8 +440,8 @@ ul {
   background-color: #000;
   -webkit-mask-size: cover;
           mask-size: cover;
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/add-circular-outlined-button.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/add-circular-outlined-button.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/add-circular-outlined-button.png?tr=w-15,h-15");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/add-circular-outlined-button.png?tr=w-15,h-15");
   position: absolute;
   right: 10px;
 }
@@ -501,7 +501,7 @@ ul {
 .team__item:hover .team__pic::after {
   width: 96%;
   height: 94%;
-  border: 3px solid #FAD312;
+  border: 3px solid #fad312;
   left: 2%;
   top: 3%;
   background: none;
@@ -546,7 +546,7 @@ ul {
 /* ------- 活動時程 ------- */
 .schedule {
   text-align: center;
-  background: #FAD312;
+  background: #fad312;
   color: #fff;
 }
 
@@ -617,7 +617,7 @@ ul {
 /* 歷屆成績 - 組 */
 .history__item {
   width: 22%;
-  border: 2px solid #FAD312;
+  border: 2px solid #fad312;
   padding: 20px 0;
   color: #fff;
   -webkit-box-shadow: 0 0 2px 0px #000;
@@ -682,7 +682,7 @@ ul {
   width: 70px;
   height: 70px;
   display: inline-block;
-  background-color: #FAD312;
+  background-color: #fad312;
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/");
@@ -690,25 +690,25 @@ ul {
 }
 
 .comments__icon.icon-strength {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-strength.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-strength.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-strength.png?tr=w-70,h-70");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-strength.png?tr=w-70,h-70");
 }
 
 .comments__icon.icon-buddha {
   width: 80px;
   height: 80px;
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-buddha.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-buddha.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-buddha.png?tr=w-70,h-70");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-buddha.png?tr=w-70,h-70");
 }
 
 .comments__icon.icon-sleep {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-sleep.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-sleep.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-sleep.png?tr=w-70,h-70");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-sleep.png?tr=w-70,h-70");
 }
 
 .comments__icon.icon-bao {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-bao.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-bao.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-bao.png?tr=w-70,h-70");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-bao.png?tr=w-70,h-70");
 }
 
 /* 使用者見證 - RWD */
@@ -766,7 +766,7 @@ ul {
   position: absolute;
   top: 5%;
   left: 5%;
-  border: 2px solid #FAD312;
+  border: 2px solid #fad312;
   background: rgba(0, 0, 0, 0.4);
   opacity: 0;
   z-index: 1;
@@ -829,7 +829,7 @@ ul {
 .judge__gallery .pic {
   width: calc(100% - 180px);
   height: 350px;
-  border-top: 4px solid #FAD312;
+  border-top: 4px solid #fad312;
   float: right;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -879,7 +879,7 @@ ul {
   position: absolute;
   bottom: 10px;
   left: calc(50% - 10px);
-  background: #FAD312;
+  background: #fad312;
 }
 
 .judge__card .judge__card-summary {
@@ -889,9 +889,9 @@ ul {
 }
 
 .judge__card .btn {
-  border: 1px solid #FAD312;
+  border: 1px solid #fad312;
   background: none;
-  color: #FAD312;
+  color: #fad312;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
@@ -968,9 +968,9 @@ ul {
 /* ------- footer ------- */
 /* 報名資訊 ------- */
 .subscribe {
-  background: #fff url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/bg_footer.png") no-repeat center center;
+  background: #fff url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/bg_footer.png?tr=h-380") no-repeat center center;
   background-size: auto 380px;
-  border-bottom: 3px solid #FAD312;
+  border-bottom: 3px solid #fad312;
 }
 
 .subscribe .subscribe__inner {
@@ -981,7 +981,7 @@ ul {
 }
 
 .subscribe .subscribe__inner .subscribe__summary {
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   line-height: 2rem;
   font-weight: 500;
   color: #666;
@@ -1079,22 +1079,21 @@ ul {
 }
 
 .footer__social-media .footer__social-icon.icon-fb {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-fb.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-fb.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-fb.png?tr=w-30,h-30");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-fb.png?tr=w-30,h-30");
 }
 
 .footer__social-media .footer__social-icon.icon-twitter {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-twitter.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-twitter.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-twitter.png?tr=w-30,h-30");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-twitter.png?tr=w-30,h-30");
 }
 
 .footer__social-media .footer__social-icon.icon-ig {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-ig.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-ig.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-ig.png?tr=w-30,h-30");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-ig.png?tr=w-30,h-30");
 }
 
 .footer__social-media .footer__social-icon.icon-g-plus {
-  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-g-plus.png");
-          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-g-plus.png");
+  -webkit-mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-g-plus.png?tr=w-30,h-30");
+          mask-image: url("https://ik.imagekit.io/ghw5ldyqjk/lazy-hackathon/icon-g-plus.png?tr=w-30,h-30");
 }
-/*# sourceMappingURL=style.css.map */
