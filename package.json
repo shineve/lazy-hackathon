@@ -1,0 +1,25 @@
+{
+  "name": "lazy-hackathon",
+  "version": "1.0.0",
+  "description": "網站連結：[GitHub Page](https://lidemy.github.io/lazy-hackathon/)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shineve/lazy-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shineve/lazy-hackathon/issues"
+  },
+  "homepage": "https://github.com/shineve/lazy-hackathon#readme"
+}
